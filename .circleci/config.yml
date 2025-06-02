@@ -1,0 +1,30 @@
+version: 2.1
+
+
+orbs:
+  maven: circleci/maven@2.0.0
+
+
+jobs:
+  build-and-test:
+    docker:
+      - image: "cimg/openjdk:8.0"
+    resource_class: "small"
+    steps:
+      - checkout
+      - maven/with_cache:
+          verify_dependencies: true
+          steps:
+            - steps:
+                - run:
+                    name: "Maven - Build Package"
+                    command: mvn -V -DskipTests=true install
+                - run:
+                    name: "Maven - Test Package"
+                    command: mvn verify
+
+
+workflows:
+  build-and-test:
+    jobs:
+      - build-and-test
