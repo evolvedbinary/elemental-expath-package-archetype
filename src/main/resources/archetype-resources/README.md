@@ -43,10 +43,12 @@ NOTE: You will also need to modify `xar-assembly.xml` to reflect any changes you
 
 To create an EXPath Package for your application, follow the platform specific instructions below. You will then find a `.xar` file in the `target/` sub-folder.
 
+First you will need to initialise the project as a git repository by running `git init`, then:
+
 ### macOS/Linux/Unix:
 
 ```bash
-$ mvnw package
+$ ./mvnw package
 ```
 
 ### Windows:
