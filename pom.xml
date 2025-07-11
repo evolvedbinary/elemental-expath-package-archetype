@@ -152,6 +152,7 @@
                                 <exclude>elemental-expath-package-archetype-BSL-11-license.template.txt</exclude>
                                 <exclude>xquery-license-style.xml</exclude>
                                 <exclude>src/main/resources/archetype-resources/**</exclude>
+                                <exclude>src/test/resources/projects/simple/goal.txt</exclude>
                                 <exclude>src/test/resources/projects/simple/reference/**</exclude>
                             </excludes>
                         </licenseSet>
