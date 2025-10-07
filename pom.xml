@@ -78,7 +78,7 @@
         <project.build.source>1.8</project.build.source>
         <project.build.target>1.8</project.build.target>
 
-        <maven-archetype-plugin.version>3.4.0</maven-archetype-plugin.version>
+        <maven-archetype-plugin.version>3.4.1</maven-archetype-plugin.version>
     </properties>
 
     <build>
