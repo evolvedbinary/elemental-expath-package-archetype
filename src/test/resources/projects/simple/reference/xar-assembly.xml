@@ -4,7 +4,7 @@
     <title>${package-title}</title>
     <author id="my-organisation">My Organisation</author>
     <website>${project.url}</website>
-    <license>GNU Lesser General Public License, version 2.1</license>
+    <license>Apache License, Version 2.0</license>
     <copyright>true</copyright>
 
     <!-- should be either "application" or "library" -->
