@@ -20,7 +20,7 @@ $ cd my-projects
 $ mvn archetype:generate \
     -DarchetypeGroupId=xyz.elemental.expath \
     -DarchetypeArtifactId=elemental-expath-package-archetype \
-    -DarchetypeVersion=1.1.0
+    -DarchetypeVersion=1.2.0
 ```
 
 Maven will then prompt you for a `groupId`, `artifactId`, `version`, and `package` for your project.
